@@ -56,4 +56,7 @@ window.onclick = function(event) {
 }
 
 
+// lightbox de la galerie 
+
+
 

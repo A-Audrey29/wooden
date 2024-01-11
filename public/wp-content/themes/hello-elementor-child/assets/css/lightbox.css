@@ -1,54 +1,19 @@
-/* Style de base pour la lightbox */
 .lightbox {
-    display: none; /* Cache la lightbox par défaut */
+    display: none;
     position: fixed;
-    top: 0;
+    z-index: 1000;
     left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Fond semi-transparent */
-    z-index: 1000;
-    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
     align-items: center;
-}
-
-/* Affiche la lightbox quand la classe 'active' est ajoutée */
-.lightbox.active {
-    display: flex;
-}
-
-/* Style pour l'image dans la lightbox */
-.lightboxContainer img {
-    max-width: 80%;
+    justify-content: center;
+  }
+  
+  .lightbox img {
+    max-width: 90%;
     max-height: 80%;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-/* Style pour les boutons de fermeture, suivant et précédent */
-.lightbox button {
-    position: absolute;
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-
-.lightbox-close {
-    top: 20px;
-    right: 20px;
-}
-
-.lightbox-prev, .lightbox-next {
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.lightbox-prev {
-    left: 20px;
-}
-
-.lightbox-next {
-    right: 20px;
-}
-
-/* Ajoutez des styles supplémentaires pour les boutons si nécessaire */
+    margin: auto;
+  }
+  

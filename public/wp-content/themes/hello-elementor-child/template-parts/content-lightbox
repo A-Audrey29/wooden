@@ -1,10 +1,7 @@
-<div class="lightbox active">
-    <button class="lightbox-close"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/close.png" alt="Croix de fermeture" /></button>
-    <button class="lightbox-prev"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/previous.png" alt="Flèche vers la gauche" /> </button>
-    <button class="lightbox-next"><img class="#" src="<?php echo get_template_directory_uri(); ?>/assets/images/next.png" alt="Flèche vers la droite" />
-    </button>
+<!-- <div class="lightbox active"> -->
+    
 
-   <div class="lightboxContainer">
+   <!-- <div class="lightboxContainer">
         <img src="" alt="Image de la lightbox" />
-    </div> 
-</div>
+    </div>  -->
+<!-- </div> -->

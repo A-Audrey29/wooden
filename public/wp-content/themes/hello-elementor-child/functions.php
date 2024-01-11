@@ -15,7 +15,9 @@
 // branchement du fichier JS
 function hello_elementor_child_enqueue_scripts()
 {
-    wp_enqueue_script('script', get_stylesheet_directory_uri() . '/script.js', '', '', true);
+    wp_enqueue_script('script', get_stylesheet_directory_uri() . '/assets/js/script.js', '', '', true);
+    wp_enqueue_script('lightbox-script', get_stylesheet_directory_uri() . '/assets/js/lightbox-script.js', '', '', true);
+
 }
 add_action('wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts');
 
@@ -35,7 +37,6 @@ function custom_button_shortcode() {
           </div>';
 }
 add_shortcode('custom_button', 'custom_button_shortcode');
-
 
 
 

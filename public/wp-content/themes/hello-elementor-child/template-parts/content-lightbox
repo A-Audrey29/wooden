@@ -4,18 +4,7 @@
     <button class="lightbox-next"><img class="#" src="<?php echo get_template_directory_uri(); ?>/assets/images/next.png" alt="Flèche vers la droite" />
     </button>
 
-    <div class="lightboxContainer">
-
-            <?php if (has_post_thumbnail()) : ?>
-                <?php
-                $image_id = get_post_thumbnail_id();
-                $image_url = wp_get_attachment_image_src($image_id, 'full');
-                ?>
-                <img src="<?php echo $image_url[0]; ?>" alt="<?php the_title_attribute(); ?>" class="post-thumbnail img-fullscreen img-hover" width="full" height="full" />
-                    
-
-            <?php endif; ?>
-            <?php the_content(); ?>
-        
-    </div>
+   <div class="lightboxContainer">
+        <img src="" alt="Image de la lightbox" />
+    </div> 
 </div>

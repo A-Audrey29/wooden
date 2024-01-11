@@ -1,7 +1,6 @@
 
 
 <div class="galery">
-    
     <?php
     // Récupérez le tableau d'image
     $image = get_field('image_1');
@@ -94,4 +93,4 @@
     endif;
     ?>
 
-</div>
+

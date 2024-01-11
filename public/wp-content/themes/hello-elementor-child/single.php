@@ -32,7 +32,7 @@ if ( have_posts() ) :
 <?php
 
             // Afficher le bouton "Contactez-nous" avec le shortcode
-            echo do_shortcode('[custom_button]');
+                  echo do_shortcode('[custom_button]');
             
             // Inclure le template part pour afficher les images
             get_template_part('template-parts/images');
